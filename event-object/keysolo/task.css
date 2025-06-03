@@ -11,3 +11,23 @@
   color: #fff;
 }
 
+.word_wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.timer {
+  position: absolute;
+  top: 10px;
+  right: -60px;
+  background: #4361ee;
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
